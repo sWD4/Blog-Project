@@ -1,0 +1,24 @@
+<%- include('../front/header.ejs') %>
+    <section class="dashboard-wrap mtb-40">
+        <div class="container">
+            <div class="body-content">
+                <div class="row">
+                    <div class="col-md-3">
+                       <%- include('../admin/adminsidebar.ejs') %>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="dash-right">
+                            <h1> Welcome!! </h1>
+                            <h3><%= n %></h3>
+                            <h3>Email : <%= e %></h3>
+                            <p style="font-size: 18px;">We are thrilled to have you here and excited for the journey ahead. 
+                            This dashboard is your central hub for managing and customizing your blog, 
+                            where you can unleash your creativity and share your unique voice with the world.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <%- include('../front/footer.ejs') %>
