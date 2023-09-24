@@ -25,9 +25,11 @@
                             <p>
                                 <%= item.createdAt.toLocaleDateString() %>
                             </p>
+                            
                             <div class="card-text">
                                 <%= item.description.slice(0,100) %>
                             </div>
+                            <br>
                             <a href="/blogdetail/<%= item._id %>" class="btn btn-danger">Read more...</a>
                         </div>
                     </div>
